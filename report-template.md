@@ -39,10 +39,6 @@ We first examined the class balance using the `value_counts()` function, which r
 
 The logistic regression model achieved high overall accuracy and was very effective in predicting healthy loans (`0`). However, its ability to detect high-risk loans (`1`) was extremely poor, with a recall of just 2%. This performance issue is largely due to the class imbalance in the dataset.
 
-### Recommendation
-
-**The logistic regression model is not recommended** for production use if the goal is to identify high-risk loans. Despite its high accuracy, the model fails to fulfill its core purpose: detecting default risk.
-
 ### Suggested Next Steps
 
 - Address class imbalance using:

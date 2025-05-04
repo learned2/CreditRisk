@@ -45,8 +45,6 @@ While the logistic regression model demonstrates excellent performance in identi
 
 ## ✅ Recommendation
 
-At this stage, the model **should not be used in production** without further tuning and preprocessing. To improve performance:
-
 - Address class imbalance using:
   - **SMOTE** (Synthetic Minority Over-sampling)
   - **Class weights** or **undersampling**
